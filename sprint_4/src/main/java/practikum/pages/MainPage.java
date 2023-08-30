@@ -5,9 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
-import java.util.Objects;
 
 
 public class MainPage {
@@ -19,7 +17,7 @@ public class MainPage {
     private static final By accordionItemHeading = By.xpath("//*[starts-with(@id, 'accordion__heading-')]"); // кнопка со стрелкой в разделе «Вопросы о важном»
     private static final By accordionItemPanel = By.xpath(".//*[starts-with(@id, 'accordion__panel-')]/p"); // Соответствующий текст после тапа на кнопку со стрелкой
     private final Duration duration = Duration.ofSeconds(10);
-    private WebDriverWait wait;
+
 
     private static final By subHeader = By.xpath("//*[@id=\"root\"]/div/div/div[5]/div[1]"); // Заголовок "Вопросы о важном"
 

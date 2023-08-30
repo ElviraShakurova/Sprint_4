@@ -1,21 +1,13 @@
 package practikum;
-import org.junit.After;
-import org.junit.Before;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
-import org.openqa.selenium.chrome.ChromeOptions;
 import practikum.pages.MainPage;
 import practikum.pages.NextOrderPage;
 import practikum.pages.OrderPage;
 
-import java.io.File;
-import java.time.Duration;
 
 @RunWith(Parameterized.class)
 public class ScooterTest {

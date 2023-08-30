@@ -1,9 +1,7 @@
 package practikum.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -18,8 +16,6 @@ public class OrderPage {
     private static final By ChooseMetro = By.cssSelector("[data-index='4']"); // Выбор станции Метро в выпадающем списке
     private static final By InputPhone = By.xpath("//*[@id=\'root\']/div/div[2]/div[2]/div[5]/input");// Поле ввода "Телефон"
     private static final By ButtonDalee = By.className("Button_Middle__1CSJM"); // Кнопка "Далее"
-
-
 
 
     public OrderPage(WebDriver driver) {
